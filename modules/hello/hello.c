@@ -12,7 +12,7 @@ int __init init_hello(void)
   return 0;
 }
 
-//exit routine
+//commit test 4
 void __exit exit_hello(void)
 {
   printk( KERN_ALERT "[ Hello Module :] Exit.\n");
