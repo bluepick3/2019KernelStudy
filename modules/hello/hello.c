@@ -11,7 +11,7 @@ int __init init_hello(void)
 
   return 0;
 }
-//commit
+//commit test2
 
 //exit routine
 void __exit exit_hello(void)
@@ -23,5 +23,4 @@ void __exit exit_hello(void)
 
 module_init(init_hello);
 module_exit(exit_hello);
-
 
