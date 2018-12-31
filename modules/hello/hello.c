@@ -11,7 +11,6 @@ int __init init_hello(void)
 
   return 0;
 }
-//commit test3
 
 //exit routine
 void __exit exit_hello(void)
